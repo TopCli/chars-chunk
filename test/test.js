@@ -1,8 +1,7 @@
-"use strict";
+// Import Third-party Dependencies
+import test from "tape";
 
-// Require Third-party Dependencies
-const test = require("japa");
-
-test("Husky passed Test", (assert) => {
-    assert.equal(1, 1);
+test("default", (tape) => {
+  tape.is(1, 1);
+  tape.end();
 });
