@@ -1,5 +1,5 @@
 import { VirtualTTY, Vector2 } from "./index.js";
-import faker from "faker";
+import { faker } from "@faker-js/faker";
 
 const size = new Vector2(35, 5);
 const vT1 = new VirtualTTY(new Vector2(0, 2), size);
